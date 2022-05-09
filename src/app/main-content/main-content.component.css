@@ -1,0 +1,44 @@
+.aside{
+  width:70%;
+  margin-left:445px;
+  margin-top:50px;
+  position: fixed;
+
+}
+  hr{
+    border-bottom: 2px solid rgb(208, 208, 208);
+  }
+  li{
+    list-style: none;
+    display: inline;
+    padding: 10px;
+  }
+  .Gen{
+    font-size: 30px;
+  }
+input{
+position: relative;
+width:70%;
+border:1px solid whitesmoke;
+border-bottom: 4px solid rgb(208, 208, 208);
+height:50px;
+margin-top:585px;
+margin-left:125px;
+padding:20px;
+font-size:15px;
+text-align: center;
+
+}
+.icons{
+  padding:10px;
+  width:715px;
+  margin-left:100px;
+
+}
+.send{
+margin-left: 295px;
+}
+.lists{
+  padding:10px;
+  width:750px;
+}

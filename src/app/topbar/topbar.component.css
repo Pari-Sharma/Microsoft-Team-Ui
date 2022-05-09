@@ -1,0 +1,28 @@
+div{
+  background-color: blueviolet;
+  height:50px;
+  padding:5px;
+  position: fixed;
+  width:100%
+}
+input{
+  width:550px;
+  position: relative;
+  margin:auto;
+  height:35px;
+}
+
+.icon{
+  float:right;
+  position:relative;
+  margin:auto;
+  bottom:35px;
+  right:20px;
+}
+a{
+  text-align: center;
+  position: relative;
+}
+mat-icon{
+  font-size: 40px;
+}

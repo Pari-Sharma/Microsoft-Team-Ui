@@ -1,0 +1,43 @@
+
+li{
+
+  list-style: none;
+  font-size: 20px;
+  margin-left: 15px;
+  margin-top:15px;
+  padding: 4px;
+  position: relative;
+}
+.icon{
+
+  text-align: right;
+  margin-left: 220px;
+}
+nav
+{
+  width:350px;
+  height:93.8%;
+  background-color: rgb(216, 215, 215);
+  margin-top: 50px;
+  margin-left:95px;
+  position: fixed;
+  border-right: 5px solid whitesmoke;
+}
+hr{
+  border:1px solid whitesmoke;
+}
+.mention{
+  margin-top:645px;
+}
+input{
+  width:250px;
+  margin-left:25px;
+  height:40px;
+  border: none;
+  border-top: 3px solid white;
+  background-color: rgb(216, 215, 215);
+  padding:15px;
+}
+.setting{
+  color:grey;
+}

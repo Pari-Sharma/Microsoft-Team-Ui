@@ -1,18 +1,17 @@
-
+<title>Sidebar</title>
 <nav>
-    <div class="icons"> <a href=""><mat-icon>notifications_none</mat-icon></a></div>
+    <div class="icons"> <a routerLink="/Activity" routerLinkActive="active"><mat-icon>notifications_none</mat-icon></a></div>
     <li>Activity</li>
-    <div class="icons"><a href="#"><mat-icon> chat</mat-icon></a> </div>
+    <div class="icons"><a routerLink="/Chat" routerLinkActive="active"><mat-icon> chat</mat-icon></a> </div>
     <li >Chat</li>
-
-    <div class="icons"> <a href="#"><mat-icon>people</mat-icon></a></div><li>Teams</li>
-    <div class="icons"><a href="#"><mat-icon>date_range</mat-icon></a></div><li>Calender</li>
-    <div class="icons"><a href="#"><mat-icon> phone</mat-icon></a></div>
+    <div class="icons"> <a routerLink="/teams" routerLinkActive="active"><mat-icon>people</mat-icon></a></div><li>Teams</li>
+    <div class="icons"><a routerLink="/Calender" routerLinkActive="active"><mat-icon>date_range</mat-icon></a></div><li>Calender</li>
+    <div class="icons"><a routerLink="/Calls" routerLinkActive="active"><mat-icon> phone</mat-icon></a></div>
     <li>Calls</li>
-    <div class="icons"><a href="#"><mat-icon>file_copy</mat-icon></a></div>
+    <div class="icons"><a routerLink="/Files" routerLinkActive="active"><mat-icon>file_copy</mat-icon></a></div>
     <li>Files</li>
-      <div class="icons"><a href="#"><mat-icon>more_horiz</mat-icon></a></div>
-      <li></li>
+    <div class="icons"><a routerLink="/More" routerLinkActive="active"><mat-icon>more_horiz</mat-icon></a></div>
+    <li></li>
     <div class="icons"> <mat-icon>maximize</mat-icon></div>
 </nav>
-
+<router-outlet></router-outlet>

@@ -1,11 +1,14 @@
-.aside{
+.wrapper{
   width:70%;
   margin-left:445px;
   margin-top:50px;
+  margin-right: 0;
   position: fixed;
 
 }
   hr{
+    margin-top:20px;
+    margin-right: 0;
     border-bottom: 2px solid rgb(208, 208, 208);
   }
   li{
@@ -13,14 +16,15 @@
     display: inline;
     padding: 10px;
   }
-  .Gen{
-    font-size: 30px;
+  #title{
+
+    font-size: 20px;
   }
 input{
 position: relative;
 width:70%;
 border:1px solid whitesmoke;
-border-bottom: 4px solid rgb(208, 208, 208);
+border-bottom: 3px solid rgb(29, 3, 177);
 height:50px;
 margin-top:585px;
 margin-left:125px;
@@ -38,7 +42,7 @@ text-align: center;
 .send{
 margin-left: 295px;
 }
-.lists{
+.list{
   padding:10px;
   width:750px;
 }

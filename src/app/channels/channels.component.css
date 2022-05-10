@@ -1,33 +1,56 @@
-
-li{
-
-  list-style: none;
-  font-size: 20px;
-  margin-left: 15px;
-  margin-top:15px;
-  padding: 4px;
-  position: relative;
-}
-.icon{
-
-  text-align: right;
-  margin-left: 220px;
-}
-nav
-{
-  width:350px;
-  height:93.8%;
-  background-color: rgb(216, 215, 215);
-  margin-top: 50px;
-  margin-left:95px;
+.container .sidebar{
+  background: whitesmoke;
   position: fixed;
-  border-right: 5px solid whitesmoke;
+  width:350px;
+  height:94%;
+  margin-left:28px;
+  margin-top:50px;
+  padding:10px;
 }
-hr{
-  border:1px solid whitesmoke;
+
+.sidebar a
+{
+  text-decoration: none;
+  color: rgb(189, 178, 188);
 }
-.mention{
-  margin-top:645px;
+
+.sidebar a:hover
+{
+  color: #1642bd;
+  font-weight: 500;
+}
+
+#heading
+{
+  margin-top: 3px;
+  margin-left: 10px;
+  font-size: 20px;;
+  color: #ca20ec;
+}
+
+hr
+{
+border: 1px solid rgb(213, 211, 211);
+}
+
+#title
+{
+  font-size: 20px;;
+}
+
+.teamslist
+{
+  margin-left: 5px;
+}
+
+.subList
+{
+  margin-left: 10px;
+  padding:5px;
+}
+#Nav
+{
+  color: black;
 }
 input{
   width:250px;
@@ -38,6 +61,6 @@ input{
   background-color: rgb(216, 215, 215);
   padding:15px;
 }
-.setting{
-  color:grey;
+.mention{
+  margin-top:290px;
 }

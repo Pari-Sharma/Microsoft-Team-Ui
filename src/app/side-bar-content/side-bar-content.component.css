@@ -1,0 +1,44 @@
+#heading
+{
+    margin-top: 3px;
+    margin-left: 10px;
+    font-size:20px;
+    color:#ca20ec;
+}
+.container .sidebar-content{
+  background-color: whitesmoke;
+  border-right: 4px solid rgb(244, 244, 244);
+  position: fixed;
+  top: 50px;
+  left: 96px;
+  width: 348px;
+  height: 100%;
+  padding: 20px 0;
+}
+.sidebar a
+{
+    text-decoration: none;
+    color: dimgray;
+}
+.sidebar a:hover
+{
+    color: #e2dfe2;
+    font-weight: 500;
+}
+
+#Navbar
+{
+    color: rgb(199, 196, 196);
+}
+hr
+{
+	border: 1px solid rgb(213, 211, 211);
+}
+#subhead
+{
+    font-size: 15px;
+}
+.subList
+{
+    margin-left: 10px;
+}

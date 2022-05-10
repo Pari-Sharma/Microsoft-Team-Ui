@@ -1,10 +1,19 @@
+<div class="container">
+  <div class="sidebar">
+      <nav class="navbar navbar-light" id="Nav">
+          <label id="heading">Teams</label>
+          <a><mat-icon>filter_alt</mat-icon></a>
+      </nav>
+     <hr>
 
- <nav>
-
-<li>TEAMS
-  <span class="icon">
-    <mat-icon>filter_alt</mat-icon>
-  </span>
-</li><hr>
-<div class="mention"><input placeholder="join or create a team"></div>
-</nav>
+     <div class="teamslist">
+         <p id="title">Your Teams</p><br>
+         <a >Rising Talent Batch_2022</a>
+         <div class="subList" *ngFor="let list  of teamslist">
+             <a routerLink="{{list.title}}" routerLinkActive="active">{{list.title}}</a><br>
+         </div>
+      </div>
+       <div class="mention"><input placeholder="join or create a team"></div>
+  </div>
+</div>
+<router-outlet></router-outlet>
